@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "ant-design-vue": "^2.2.8",
+    "jump.js": "^1.0.2",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12"
   },

@@ -14,11 +14,11 @@
       x5-video-player-type="h5-page"
       x5-video-orientation="portraint" />
   </div>
-  <About />
+  <About id="ABOUT" />
 
-  <Characters />
+  <Characters id="CHARACTERS" />
 
-  <CoreTeam />
+  <CoreTeam id="TEAM" />
 
   <End />
 

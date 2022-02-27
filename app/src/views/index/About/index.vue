@@ -41,7 +41,7 @@
         :xs="{ span: 20, offset: 2 }"
         :md="{ span: 7, offset: 3 }"
         :lg="{ span: 7, offset: 3 }"
-        :xxl="8"
+        :xxl="{ span: 6, offset: 0 }"
         class="tw-mb-20 tw-text-center tw-font-bold">
         <div class="image-wrap">
           <img :src="item.image" class="tw-inline tw-w-full tw-h-full tw-object-contain">

@@ -1,6 +1,6 @@
 <template>
   <div class="nav tw-flex">
-    <a class="tw-h-full tw-p-4" href="/">
+    <a class="nav__logo tw-h-full tw-p-4" href="/">
       <img class="tw-h-full" src="@/assets/nav-logo.png">
     </a>
     <div class="tw-flex-1 tw-w-0 tw-h-full">
@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <div class="tw-w-60" />
+    <div class="nav__right tw-w-60" />
   </div>
 </template>
 
@@ -50,6 +50,11 @@ const handleLink = (link) => {
           @apply tw-bg-b-secondary;
           opacity: 1;
         }
+      }
+    }
+    &__logo, &__right {
+      @media (max-width: 1000px) {
+        display: none;
       }
     }
   }

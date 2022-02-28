@@ -3,18 +3,19 @@
 
   <div class="video-wrap">
     <!-- TODO: 暂时用图片代替 -->
-    <!-- <video
+    <video
       :src="videoUrl"
       class="tw-w-full tw-h-full tw-object-cover"
       muted
+      preload
       autoplay
       loop
       playsinline
       webkit-playsinline
       x-webkit-airplay="allow"
       x5-video-player-type="h5-page"
-      x5-video-orientation="portraint" /> -->
-      <img src="@/assets/temp.png" class="tw-w-full tw-h-full tw-object-cover">
+      x5-video-orientation="portraint" />
+      <!-- <img src="@/assets/temp.png" class="tw-w-full tw-h-full tw-object-cover"> -->
   </div>
   <About id="ABOUT" />
 

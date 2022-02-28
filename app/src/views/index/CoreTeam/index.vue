@@ -12,7 +12,7 @@
           <a-col
             v-for="(item, index) in items"
             :key="index"
-            :xs="12"
+            :xs="24"
             :lg="8"
             :xl="6"
             class="tw-mb-20">

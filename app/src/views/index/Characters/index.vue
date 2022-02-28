@@ -28,7 +28,7 @@
 
     <!-- 内容 -->
     <div class="tw-relative tw-z-10">
-      <div class="title w-z-20">CHARACTERS</div>
+      <div class="title w-z-20 tw-overflow-hidden">CHARACTERS</div>
       <a-row v-if="choose" class="tw-mt-10">
         <a-col
           :xs="{ span: 22, offset: 1 }"
@@ -132,6 +132,7 @@ const choose = computed({
     position: relative;
     background-image: url("@/assets/bg2.jpg");
     background-repeat: repeat;
+    overflow: hidden;
   }
   .image-wrap {
     height: 500px;

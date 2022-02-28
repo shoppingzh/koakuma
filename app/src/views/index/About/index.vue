@@ -8,7 +8,7 @@
       <a-col
         :xs="{ span: 24, offset: 0 }"
         :md="{ span: 7, offset: 0 }"
-        class="tw-mb-5">
+        class="tw-mb-3">
         <div>
           <img src="@/assets/about-left.png">
         </div>
@@ -34,7 +34,7 @@
     </div>
 
     <!-- 详情 -->
-    <a-row class="tw-mt-20">
+    <a-row class="tw-mt-20 tw-pb-10">
       <a-col
         v-for="(item, index) in items"
         :key="index"
@@ -42,7 +42,7 @@
         :md="{ span: 7, offset: 3 }"
         :lg="{ span: 7, offset: 3 }"
         :xxl="{ span: 6, offset: 0 }"
-        class="tw-mb-20 tw-text-center tw-font-bold">
+        class="tw-mb-5 tw-text-center tw-font-bold">
         <div class="image-wrap">
           <img :src="item.image" class="tw-inline tw-w-full tw-h-full tw-object-contain">
         </div>
